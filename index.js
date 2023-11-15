@@ -103,5 +103,5 @@ io.on('connection', async (socket) => {
 
 
 server.listen(process.env.PORT, () => {
-    console.log('Server is started ', process.env.MONGO)
+    console.log('Server is started ', process.env.PORT)
 })
